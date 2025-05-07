@@ -17,6 +17,7 @@ Este projeto foi desenvolvido em React + TypeScript com Vite.
 
 
 ## 📌 Installation / Instalação
+
 To run the project locally, follow these steps:
 
 Para rodar o projeto localmente, siga os seguintes passos:
@@ -24,6 +25,7 @@ Para rodar o projeto localmente, siga os seguintes passos:
 1️⃣ Clone the repository:
 
 https://github.com/JacquelineCasali/Teste-Buzzvel.git
+
 Rodar o front-end (React.js)
 
 ✅ $ cd frontend
@@ -31,18 +33,6 @@ Rodar o front-end (React.js)
 ✅ $ npm run dev
 
 
-
-## Project Repository /Repositorio do Projeto
-
-https://github.com/JacquelineCasali/Teste-Buzzvel.git
-
-## ## Installation and Running the Project / Instalação e Rodar o Projeto
-
-## FRONTEND
-
-1. `$ cd fronEnd`
-2. `$ npm install`
-3. `$ npm run dev`
 
 ## Website - click here to visit the soller website
 
