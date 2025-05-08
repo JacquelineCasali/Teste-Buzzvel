@@ -15,6 +15,9 @@ Este projeto foi desenvolvido em React + TypeScript com Vite.
 - React Helmet 
 - CSS puro
 
+## Deploy
+
+https://teste-buzzvel.vercel.app/
 
 ## 📌 Installation / Instalação
 
@@ -29,7 +32,9 @@ https://github.com/JacquelineCasali/Teste-Buzzvel.git
 Rodar o front-end (React.js)
 
 ✅ $ cd frontend
+
 ✅ $ npm install
+
 ✅ $ npm run dev
 
 

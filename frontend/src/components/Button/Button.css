@@ -1,0 +1,52 @@
+.btn {
+  width: 153px;
+  height: 48px;
+
+  border-radius: 8px;
+  cursor: pointer;
+
+padding: 12px;
+ 
+  font-size: var(--m);
+  line-height: 24px;
+  letter-spacing: 0.5px;
+ 
+  padding: 12px;
+  border-radius: 8px;
+
+ 
+font-weight: 500;
+
+
+}
+
+.primary {
+  color: var(--blue-gray);
+  border: 2px solid var(--blue-gray);
+  background: transparent;
+
+ 
+
+}
+
+
+.roxo {
+  color: var(--roxo);
+  border: 2px solid var(--roxo);
+  background: transparent;
+}
+
+
+.primary:hover {
+  background:#005ecb;
+ 
+
+}
+
+.roxo:active,
+.roxo:hover {
+  background: var(--roxo);
+  color: var(--amarelo);
+  box-shadow: rgb(0 0 0 / 20%) 0px 28px 45px;
+
+}
