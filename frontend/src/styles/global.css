@@ -2,7 +2,8 @@
 :root {
  
  
-  --white:#ffff ;
+  --white:#FFFFFF;
+  
   --primary: #EA580C;
   --blue-gray: #0F172A;
   --blue-gray-500: #64748B;
@@ -19,6 +20,7 @@
 --ms:18px;
 --v:20px;
 --lg:24px;
+--s:40px;
 --t:72px
 
 

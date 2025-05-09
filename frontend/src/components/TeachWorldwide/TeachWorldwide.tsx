@@ -33,12 +33,20 @@ const TeachWorldwide = () => {
      
         </div>
              <div className="trusted">
-             <p>Trusted by <br />industry companies:</p>
+<p>
+Trusted by
+             <span className="block-text">industry companies:</span>
+           
+</p>
+             {/* <p>Trusted by industry companies:</p> */}
+             <div className="trusted-icon">
              <img src={vetor} alt="vetor" className="icons"   />
              <img src={vetor2} alt="vetor" className="icons"   />
              <img src={vetor3} alt="vetor" className="icons"   />
              <img src={vetor4} alt="vetor" className="icons"   />
-             <img src={vetor5} alt="vetor" className="icons"   />
+             <img src={vetor5} alt="vetor" className="icons"   />     
+             </div>
+           
              </div>
 
       </div>
