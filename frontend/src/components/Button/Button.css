@@ -47,6 +47,22 @@
   font-size: var(--v);
 }
 
+
+.blue {
+  display: flex;
+
+ 
+  height: 56px;
+  width: 295px;
+  color: var(--blue);
+  background: transparent;
+  border: none;
+  gap: 16px;
+align-items: center;
+  font-size: var(--v);
+}
+
+
 @media (max-width: 768px) {
   .primary {
     height: 48px;

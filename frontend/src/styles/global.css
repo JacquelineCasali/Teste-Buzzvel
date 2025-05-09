@@ -15,12 +15,13 @@
 
  
 
-
+--sm:14px;
 --m:16px;
 --ms:18px;
 --v:20px;
 --lg:24px;
 --s:40px;
+--c:56px;
 --t:72px
 
 
@@ -45,15 +46,7 @@
     color:var(--black);
     line-height: 100%;
   }
-.section{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  flex-direction: column;
-  text-align: center;
-  padding: 1rem;
-}
+
 
 ul {
   list-style-type: none;

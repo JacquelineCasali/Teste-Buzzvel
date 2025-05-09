@@ -1,0 +1,38 @@
+[
+  {
+    "id":1, 
+    "color":"#F3E8FF",
+    
+
+    "textColor":"#6B21A8",
+    "titulo":"Featured",
+    "titlePrincipal":"The map of mathematics",
+"texto":"Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
+"button":"Take Lesson"
+
+},
+    {
+      "id":2, 
+      "color":" #DBEAFE" ,
+      "textColor":"#1E40AF",
+      "titulo":"Popular",
+      "titlePrincipal":"The map of mathematics",
+  "texto":"Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
+  "button":"Take Lesson"
+  
+  },
+  
+  {
+    "id":3, 
+    "color":"#DCFCE7",
+    "textColor":"#166534",
+    "titulo":"Popular",
+    "titlePrincipal":"The map of mathematics",
+"texto":"Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
+"button":"Take Lesson"
+
+}
+  
+  
+  ]
+  
