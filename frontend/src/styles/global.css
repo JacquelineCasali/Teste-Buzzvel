@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
  
-  --primary: #FACC15;
+ 
   --white:#ffff ;
-  
+  --primary: #EA580C;
+  --blue-gray: #0F172A;
+  --blue-gray-500: #64748B;
+  --blue-gray-600: #475569;
+ 
 
-   --blue-gray: #0F172A;
+--blue: #2563EB;
 
 
  
@@ -13,8 +17,9 @@
 
 --m:16px;
 --ms:18px;
---lg:22px;
-
+--v:20px;
+--lg:24px;
+--t:72px
 
 
 

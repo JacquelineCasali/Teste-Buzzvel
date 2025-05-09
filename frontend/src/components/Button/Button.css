@@ -1,26 +1,31 @@
+
+
 .btn {
   width: 153px;
   height: 48px;
-
   border-radius: 8px;
   cursor: pointer;
-
-padding: 12px;
- 
-  font-size: var(--m);
+  padding: 12px;
+   font-size: var(--m);
   line-height: 24px;
   letter-spacing: 0.5px;
- 
-  padding: 12px;
-  border-radius: 8px;
 
- 
+
 font-weight: 500;
 
 
 }
-
 .primary {
+  height: 64px;
+  width: 239px;
+  color: var(--white);
+  border: 2px solid var(--primary);
+  background: var(--primary);
+  font-size: var(--lg);
+font-weight: 700;
+
+}
+.outline {
   color: var(--blue-gray);
   border: 2px solid var(--blue-gray);
   background: transparent;
@@ -30,18 +35,37 @@ font-weight: 500;
 }
 
 
-.roxo {
-  color: var(--roxo);
-  border: 2px solid var(--roxo);
-  background: transparent;
+
+.primary:hover{
+  filter: brightness(0.9);
+     }  
+
+     .outline:hover {
+    background: var(--blue-gray-600)
+       
+    
+    }
+.secondary{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  width: 178px;
+  color: var(--blue);
+background: transparent;
+border: none;
+  gap: 16px;
+
+
+  font-size: var(--v);
+
 }
-
-
-.primary:hover {
+/* .primary:hover {
   background:#005ecb;
  
 
-}
+} */
 
 .roxo:active,
 .roxo:hover {

@@ -75,7 +75,7 @@ const Header: React.FC = () => {
       </nav>
       <div className="header__buttons">
         <span>Log in</span>
-        <Button text="Sign Up Now" variant={"primary"} />
+        <Button text="Sign Up Now" variant={"outline"} />
       </div>
     </header>
   );
