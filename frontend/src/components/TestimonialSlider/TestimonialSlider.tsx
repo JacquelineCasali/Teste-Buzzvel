@@ -55,6 +55,7 @@ const TestimonialSlider = () => {
       </div>
  
       <FaAngleRight
+      className="arrow left"
      size={48} 
      style={{
       cursor:'pointer',
