@@ -1,0 +1,65 @@
+.slider-container {
+  background: var(--colors); 
+  display: flex;
+   /* gap: 80px; */
+    padding: 80px;
+    width: 100%;
+    align-items: center;
+   height: 575px;
+}
+
+
+.testimonial{
+  display: flex;
+  flex-direction: column;
+
+  gap: 48px;
+  width: 528px;
+}
+
+ .text ,.author{
+
+  font-weight: 400;
+  font-size: var(--lg);
+  line-height: 160%;
+
+  
+}
+.company{
+  font-weight: 700;
+  font-size: var(--lg);
+
+}
+.dots {
+  display: flex;
+ gap: 8px;
+  /* margin-top: 1rem; */
+}
+
+.dot {
+  width: 9px;
+  height: 9px;;
+  background-color: white; /* branco nos dots inativos */
+  border-radius: 50%; 
+  border: none;
+  cursor: pointer;
+  /* opacity: 0.5; */
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+
+  width: 32px;
+  height: 9px;
+  background-color: black; /* preto no dot ativo */
+  opacity: 1;
+  border-radius: 4px;
+}
+
+.testimonial-image{
+  width: 495px;
+height: 573px;
+margin-bottom: 85px;
+
+
+}
