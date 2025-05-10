@@ -3,6 +3,7 @@
 import AllInOne from '../components/AllInOne/AllInOne'
 
 import Header from '../components/Header/Header'
+import Statistic from '../components/Statistic/Statistic'
 import TeachMeet from '../components/TeachMeet/TeachMeet'
 import TeachWorldwide from '../components/TeachWorldwide/TeachWorldwide'
 import TestimonialSlider from '../components/TestimonialSlider/TestimonialSlider'
@@ -21,7 +22,7 @@ export default function Home() {
      <AllInOne/>
    <TestimonialSlider/>
    <TeachMeet/>
-
+<Statistic/>
     </>
   )
 }

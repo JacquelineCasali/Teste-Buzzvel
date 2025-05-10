@@ -1,5 +1,6 @@
 export interface TestimonialType {
-    text: string;
+  id: number;  
+  text: string;
     author: string;
     company: string;
     image?: string;

@@ -6,14 +6,14 @@ import Desktop from "../../assets/images/Desktop.png";
 import service from "../../services/service.json";
 
 
-import { useState } from "react";
+
 import { ServiceType } from "../../interface/ServiceType";
 import CheckItem from "../CheckItem/CheckItem";
 
 const AllInOne = () => {
-  const [test] = useState<ServiceType[]>(service);
+  const test: ServiceType[] = service;
+  if (!test?.length) return null;
 
-  if (!test || !test.length) return null;
   return (
     <section className="all-container">
       <div className="left-all">

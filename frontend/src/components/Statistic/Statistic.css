@@ -1,0 +1,50 @@
+.statistic-container {
+  background: var(--blue-gray);
+  gap: 80px;
+  padding: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: var(--colors);
+}
+.statistic {
+  display: flex;
+  width: 363px;
+  height: 213px;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.statistic-card-img {
+  width: 64px;
+  height: 64px;
+}
+
+.number {
+  font-weight: 800;
+  font-size: var(--t);
+  line-height: 110%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.statistic-text {
+  font-weight: 400;
+  font-size: var(--lg);
+  line-height: 160%;
+}
+
+@media (max-width: 768px) {
+  .statistic-container {
+    width: 393px;
+    gap: 32px;
+    padding: 48px 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  .number {
+    font-size: var(--s8);
+  }
+  .statistic-text {
+    font-size: var(--m);
+    line-height: 140%;
+  }
+}

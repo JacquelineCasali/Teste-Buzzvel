@@ -1,0 +1,14 @@
+[
+    { 
+        
+    "id": 1,
+    "icon": "/image/Icon.png", "alt": "User Countries Icon", 
+    "number": "195", "text": "user countries" },
+
+    {  "id": 2,
+        "icon": "/image/Icon-1.png", "alt": "Teachers Icon",
+     "number": "1M", "text": "valued teachers" },
+    {  "id": 3,
+        "icon": "/image/school.png", "alt": "Students Icon", 
+    "number": "17M", "text": "happy students" }
+  ]
