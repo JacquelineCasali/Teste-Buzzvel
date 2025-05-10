@@ -4,7 +4,7 @@ import "./Button.css";
 import { FaArrowRight } from "react-icons/fa";
 interface ButtonProps {
   text: string;
-  variant?: 'primary' | 'secondary' | 'outline' | 'blue';
+  variant?: 'primary' | 'secondary' | 'outline' | 'blue'| 'gray';
   onClick?: () => void;
   showIcon?: boolean; 
   showIconarrow?: boolean; 

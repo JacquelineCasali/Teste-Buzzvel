@@ -59,10 +59,23 @@
   border: none;
   gap: 16px;
 align-items: center;
-  font-size: var(--v);
+  font-size: var(--lg);
 }
 
-
+.gray{
+  display: flex;
+justify-content: center;
+ 
+  height: 64px;
+  width: 260px;
+  color: var(--white);
+  background: var(--blue-gray);
+  border: none;
+  gap: 16px;
+align-items: center;
+  font-size: var(--v);
+  font-weight: 700;
+}
 @media (max-width: 768px) {
   .primary {
     height: 48px;

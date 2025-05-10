@@ -3,6 +3,7 @@
 import All from '../components/All/All'
 import AllInOne from '../components/AllInOne/AllInOne'
 import Card from '../components/Card/Card'
+import Contact from '../components/Contact/Contact'
 
 
 
@@ -31,6 +32,7 @@ export default function Home() {
 <Card />
 <All/>
 <Join/>
+<Contact/>
     </>
   )
 }
