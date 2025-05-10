@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "text": "Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi adipiscing purus consectetur mi.",
+    
+    
+ 
+    "name": "Hellen Jummy",
+    "position": "Financial Counselor",
+    "image": "/image/hellen.png"
+
+
+  },
+  {
+    "id": 2,
+    "text": "Odio rhoncus ornare ut quam. Molestie vel duis quis scelerisque ut id. In tortor turpis viverra sagittis ultrices nisi, nec tortor. Vestibulum, ultrices ultricies neque, hac ultricies dolor.",
+    "name": "Ralph Edwards",
+    "position": "Math Teacher ",
+    "image": "/image/ralph.jpg"
+ 
+  },
+
+  {
+    "id": 3,
+    "text":"Sagittis nunc egestas leo et malesuada urna risus. Morbi proin et cras aliquam. Diam tellus, amet, hac imperdiet. Tellus mi volutpat tellus, congue malesuada sit nisl donec a.",
+    "name": "Hellena John",
+    "position": "Psychology Student ",
+    "image": "/image/hellena John.png"
+    
+  },
+  {
+    "id": 4,
+    "text": "Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi adipiscing purus consectetur mi.",
+    
+    
+ 
+    "name": "Hellen Jummy",
+    "position": "Financial Counselor",
+    "image": "/image/hellen.png"
+
+
+  },
+  {
+    "id": 5,
+    "text": "Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi adipiscing purus consectetur mi.",
+    
+    
+ 
+    "name": "Hellen Jummy",
+    "position": "Financial Counselor",
+    "image": "/image/hellen.png"
+
+
+  }
+]

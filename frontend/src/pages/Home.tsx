@@ -1,6 +1,9 @@
 
 
 import AllInOne from '../components/AllInOne/AllInOne'
+import Card from '../components/Card/Card'
+
+
 
 import Header from '../components/Header/Header'
 import Statistic from '../components/Statistic/Statistic'
@@ -23,6 +26,7 @@ export default function Home() {
    <TestimonialSlider/>
    <TeachMeet/>
 <Statistic/>
+<Card />
     </>
   )
 }
