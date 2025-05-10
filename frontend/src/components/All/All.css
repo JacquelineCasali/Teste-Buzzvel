@@ -1,0 +1,66 @@
+.alls-container {
+  display: flex;
+
+  gap: 80px;
+  padding: 80px;
+}
+.left-alls {
+  width: 600px;
+  margin-top: 80px;
+}
+.title-left {
+  font-weight: 800;
+  font-size: var(--c);
+  line-height: 110%;
+  color: var(--blue-gray);
+  margin-bottom: 32px;
+}
+
+.left-alls p {
+  margin: 15px 0 24px 0;
+  font-weight: 400;
+  font-size: var(--v);
+  line-height: 180%;
+  letter-spacing: 0%;
+  color: var(--blue-gray);
+}
+
+.all-highlight-underline {
+  position: relative;
+  display: inline-block;
+  background-image: url("../../assets/images/brush.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 100% auto;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .alls-container {
+    width: 393px;
+    gap: 32px;
+    padding: 48px 16px;
+    flex-direction: column;
+  }
+  .left-alls {
+    width: 361px;
+    gap: 32px;
+    margin-top: 0;
+  }
+
+  .title-left {
+    font-weight: 700;
+    font-size: var(--lg);
+    line-height: 90%;
+    margin-bottom: 24px;
+  }
+
+  .left-alls p {
+    display: block;
+    font-size: var(--m);
+    line-height: 140%;
+    margin-bottom: 24px;
+    font-weight: 400;
+    color: var(--blue-gray);
+  }
+}

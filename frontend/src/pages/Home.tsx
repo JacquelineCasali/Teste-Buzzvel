@@ -1,5 +1,6 @@
 
 
+import All from '../components/All/All'
 import AllInOne from '../components/AllInOne/AllInOne'
 import Card from '../components/Card/Card'
 
@@ -27,6 +28,7 @@ export default function Home() {
    <TeachMeet/>
 <Statistic/>
 <Card />
+<All/>
     </>
   )
 }

@@ -29,7 +29,6 @@ export default function Carousel({ test, onLer }: CarouselProps) {
     scrollCarousel(container, "right");
   };
 
-
   if (!test.length) return null;
 
   return (
@@ -45,23 +44,25 @@ export default function Carousel({ test, onLer }: CarouselProps) {
             className="seta"
             aria-label="Scroll para a esquerda"
             role="button"
-       
           />
           <BsArrowRightCircle
             onClick={handleRightClick}
             size={48}
             color="#FCD34D"
             className="seta"
-             aria-label="Scroll para a direita"
+            aria-label="Scroll para a direita"
             role="button"
-            
           />
         </div>
       </div>
 
       <div className="carousel" ref={carousel}>
         {test.map((item) => (
-          <div className="item" key={item.id} onClick={() => onLer(Number(item.id))}>
+          <div
+            className="item"
+            key={item.id}
+            onClick={() => onLer(Number(item.id))}
+          >
             <CardDetalhe data={item} />
           </div>
         ))}
