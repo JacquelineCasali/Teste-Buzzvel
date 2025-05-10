@@ -7,6 +7,7 @@ import Card from '../components/Card/Card'
 
 
 import Header from '../components/Header/Header'
+import Join from '../components/Join/Join'
 import Statistic from '../components/Statistic/Statistic'
 import TeachMeet from '../components/TeachMeet/TeachMeet'
 import TeachWorldwide from '../components/TeachWorldwide/TeachWorldwide'
@@ -29,6 +30,7 @@ export default function Home() {
 <Statistic/>
 <Card />
 <All/>
+<Join/>
     </>
   )
 }
