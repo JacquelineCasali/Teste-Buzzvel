@@ -1,15 +1,22 @@
 .slider-container {
-  background: var(--colors); 
+  background: var(--colors);
   display: flex;
 
-    padding: 70px;
-    width: 100%;
-    align-items: center;
-   height: 575px;
+  padding: 70px;
+  width: 100%;
+  align-items: center;
+  height: 575px;
+}
+.arrow {
+  cursor: pointer;
+  color: var(--white);
+  margin-right: 24px;
 }
 
-
-.testimonial{
+.arrow.right {
+  color:var(--blue-gray)
+}
+.testimonial {
   display: flex;
   flex-direction: column;
 
@@ -17,30 +24,26 @@
   width: 528px;
 }
 
- .text ,.author{
-
+.text,
+.author {
   font-weight: 400;
   font-size: var(--lg);
   line-height: 160%;
-
-  
 }
-.company{
+.company {
   font-weight: 700;
   font-size: var(--lg);
-
 }
 .dots {
   display: flex;
- gap: 8px;
-
+  gap: 8px;
 }
 
 .dot {
   width: 9px;
-  height: 9px;;
-  background-color: white;
-  border-radius: 50%; 
+  height: 9px;
+  background-color: var(--white);
+  border-radius: 50%;
   border: none;
   cursor: pointer;
 
@@ -48,26 +51,28 @@
 }
 
 .dot.active {
-
   width: 32px;
   height: 9px;
-  background-color: black;
+  background-color:var(--blue-gray);
   opacity: 1;
   border-radius: 4px;
 }
 
-.testimonial-image{
+.testimonial-image {
+  height: 573px;
+  margin-bottom: 85px;
+}
 
-height: 573px;
-margin-bottom: 85px;
-
-
+.image-placeholder {
+  width: 500px;
+  height: 650px;
+  background-color: #eee;
+  border-radius: 16px;
 }
 @media (max-width: 768px) {
-
   .slider-container {
     width: 393px;
-   
+
     padding: 48px 16px;
     flex-direction: column;
     height: 640px;
@@ -77,38 +82,32 @@ margin-bottom: 85px;
     display: none;
   }
 
-  .testimonial{
-   
+  .testimonial {
     width: 361px;
   }
 
-  .text ,.author,.company{
-
-    
+  .text,
+  .author,
+  .company {
     font-size: var(---ms);
-  
-  
-    
   }
-  .testimonial-image{
+  .testimonial-image {
     position: relative;
     width: 361px;
     display: flex;
     flex-direction: column;
     align-items: center;
-  margin-bottom: 0;
-  object-fit: cover;
-  
+    margin-bottom: 0;
+    object-fit: cover;
   }
-  .testimonial-image img{
+  .testimonial-image img  {
     position: relative;
     width: 393px;
-  
+
     display: flex;
     flex-direction: column;
     align-items: center;
-  margin-bottom: 0;
-  object-fit: cover;
-  
+    margin-bottom: 0;
+    object-fit: contain;
   }
 }

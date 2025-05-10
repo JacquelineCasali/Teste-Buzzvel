@@ -1,0 +1,83 @@
+.teachMeet-container {
+  display: flex;
+width: 100%;
+  gap: 80px;
+  padding: 80px;
+
+}
+
+.rights{
+  display: flex;
+  flex-direction: column;
+   gap:32px;
+   margin-top: 110px;
+ 
+}
+.rights-all{
+  position: relative;
+  display: inline-block;
+
+}
+
+.rights-all .title {
+  position: relative;
+  font-weight: 800;
+  font-size: var(--c);
+  line-height: 110%;
+  letter-spacing: 0%;
+  color: var(--blue-gray);
+
+}
+.right-img{
+  position: absolute;
+  top: -45px;  
+  right: 135px; 
+  width: 64px;
+  height: 64px;
+
+}
+
+.rights-p {
+
+  font-weight: 400;
+  font-size: var(--v);
+  line-height: 180%;
+  letter-spacing: 0%;
+  color: var(--blue-gray);
+}
+
+@media (max-width: 768px) {
+  .teachMeet-container {
+    width: 393px;
+    gap: 32px;
+    padding: 48px 16px;
+flex-direction: column-reverse;
+  }
+  .rights{
+  
+     margin-top: 35px;
+   
+  }
+
+  .rights-all .title {
+   
+    font-weight: 700;
+    font-size: var(--lg);
+  
+  
+  }
+  .right-img{
+    top: -18px;  
+    right: 175px; 
+    width: 24px;
+    height: 24px;
+  
+  }
+  .rights-p {
+
+ 
+    font-size: var(--m);
+    line-height: 140%;
+  }
+ 
+}

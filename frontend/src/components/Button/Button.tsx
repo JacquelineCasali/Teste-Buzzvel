@@ -8,12 +8,13 @@ interface ButtonProps {
   onClick?: () => void;
   showIcon?: boolean; 
   showIconarrow?: boolean; 
+  style?: React.CSSProperties;
 }
 
-export default function Button({ text, variant = 'primary',onClick,  showIcon = false ,showIconarrow=false}: ButtonProps) {
+export default function Button({text, variant = 'primary',onClick,  showIcon = false ,showIconarrow=false,  style}: ButtonProps) {
   return (
     <button className={`${"btn"} ${variant}`}
-    onClick={onClick}
+    onClick={onClick} style={style}
     >
         {showIcon && <FiPlayCircle 
         color="#2563EB"

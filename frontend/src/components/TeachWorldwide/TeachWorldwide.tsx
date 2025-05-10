@@ -5,7 +5,7 @@ import vetor2 from "../../assets/icons/vetor2.png";
 import vetor3 from "../../assets/icons/vetor3.png";
 import vetor4 from "../../assets/icons/vetor4.png";
 import vetor5 from "../../assets/icons/vetor5.png";
-import Group from "../../assets/Group 50.png";
+import Group from "../../assets/images/Group 50.png";
 
 const TeachWorldwide = () => {
   return (

@@ -1,8 +1,8 @@
 import Button from "../Button/Button";
 import "./AllInOne.css";
-import Icons from "../../assets/Icons.png";
-import Blob from "../../assets/Blob.png";
-import Desktop from "../../assets/Desktop.png";
+import Icons from "../../assets/images/Icons.png";
+import Blob from "../../assets/images/Blob.png";
+import Desktop from "../../assets/images/Desktop.png";
 import service from "../../services/service.json";
 
 

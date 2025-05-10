@@ -19,7 +19,7 @@
 .all-highlight-underline {
   position: relative;
   display: inline-block;
-  background-image: url("../../assets/brush.png");
+  background-image: url("../../assets/images/brush.png");
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: 100% auto;

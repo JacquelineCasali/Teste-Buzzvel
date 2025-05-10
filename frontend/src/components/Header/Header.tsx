@@ -4,7 +4,7 @@ import classNames from "classnames";
 import { Link } from "react-router-dom";
 import { FiChevronDown } from "react-icons/fi";
 import { FaBars } from "react-icons/fa";
-import Simbolo from "../../assets/Logo-colored.svg";
+import Simbolo from "../../assets/images/Logo-colored.svg";
 import Button from "../Button/Button";
 const Header: React.FC = () => {
   const [menuAberto, setMenuAberto] = useState(false);
