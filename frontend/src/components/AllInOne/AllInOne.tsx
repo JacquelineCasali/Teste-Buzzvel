@@ -20,9 +20,16 @@ const AllInOne = () => {
           <span className="all-highlight-underline">all-in-one</span> app that
           makes it easier
         </h1>
+        <p className="p">
+          Sit elit feugiat turpis sed integer integer accumsan turpis. Sed
+          suspendisse nec lorem mauris. Pharetra, eu imperdiet ipsum ultrices
+          amet, dui sit suspendisse.
+        </p>
 
         <p className="p-check">
-          <FaCheck size={24} color="#0F172A" />
+          <FaCheck size={24} color="#0F172A" 
+          
+          />
           Est et in pharetra magna adipiscing ornare aliquam.
         </p>
         <p className="p-check">
@@ -38,11 +45,11 @@ const AllInOne = () => {
       </div>
       <div className="image-container">
         <img src={Icons} alt="img1" className="layer layer-2" />
-        <img src={Blob} alt="img2" className="layer layer-1" />
-        <img src={Desktop} alt="img3" className="layer layer-3" />
-        <div className="layer layer-4">
-          {test.map((item) => (
-            <div className="card" key={item.id}>
+         <img src={Blob} alt="img2" className="layer layer-1" />
+      <img src={Desktop} alt="img3" className="layer layer-3" />
+         <div className="layer layer-4">
+          {test.map((item,index) => (
+            <div  className={`card ${index === 2 ? "hide-on-mobile" : ""}`} key={item.id}>
               <h6
                 style={{
                   backgroundColor: item.color,

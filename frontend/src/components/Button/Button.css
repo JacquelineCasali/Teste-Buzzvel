@@ -6,7 +6,7 @@
   padding: 12px;
   font-size: var(--m);
   line-height: 24px;
-  letter-spacing: 0.5px;
+
 
   font-weight: 500;
 }
@@ -75,6 +75,12 @@ align-items: center;
     height: 48px;
     width: 157px;
 
+    font-size: var(--m);
+  }
+
+  .blue {
+       height: 48px;
+    width: 235px;
     font-size: var(--m);
   }
 }
