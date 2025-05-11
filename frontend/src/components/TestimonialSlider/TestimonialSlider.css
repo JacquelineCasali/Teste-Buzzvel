@@ -6,6 +6,7 @@
   width: 100%;
   align-items: center;
   height: 575px;
+ 
 }
 .arrow {
   cursor: pointer;
@@ -19,9 +20,8 @@
 .testimonial {
   display: flex;
   flex-direction: column;
-
   gap: 48px;
-  width: 528px;
+
 }
 
 .text,

@@ -19,7 +19,9 @@ const AllInOne = () => {
       <div className="left-all">
         <h1 className="title-left">
           <span className="separated">An</span>{" "}
-          <span className="all-highlight-underline">all-in-one</span> app that
+          <span className="all-highlight-underline">all-in-one</span> 
+          
+          app that
           makes it easier
         </h1>
         <p className="p">
@@ -37,6 +39,8 @@ const AllInOne = () => {
 
         <Button text="Find more about the app" variant={"blue"} showIconarrow />
       </div>
+     
+     <div className="do"></div>
       <div className="image-container">
         <img src={Icons} alt="img1" className="layer layer-2"
          onError={(e) => (e.currentTarget.style.display = "none")}

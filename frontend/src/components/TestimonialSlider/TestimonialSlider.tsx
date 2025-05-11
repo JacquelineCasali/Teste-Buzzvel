@@ -43,7 +43,9 @@ const TestimonialSlider = () => {
 
       <div className="testimonial-image">
         {testimonial.image ? (
-          <img src={testimonial.image} alt={`Foto de ${testimonial.author}`} />
+          <img src={testimonial.image}
+          
+          alt={`Foto de ${testimonial.author}`} />
         ) : (
           <div className="image-placeholder" />
         )}
