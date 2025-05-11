@@ -32,9 +32,9 @@
   line-height: 160%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 393px) {
   .statistic-container {
-    width: 393px;
+    width: 391px;
     gap: 32px;
     padding: 48px 16px;
     display: flex;

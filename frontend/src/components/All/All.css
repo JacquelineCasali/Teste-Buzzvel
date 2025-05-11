@@ -1,6 +1,5 @@
 .alls-container {
   display: flex;
-
   gap: 80px;
   padding: 80px;
 }
@@ -35,7 +34,7 @@
   padding-bottom: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 393px) {
   .alls-container {
     width: 393px;
     gap: 32px;

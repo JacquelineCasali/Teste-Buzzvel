@@ -4,7 +4,7 @@ import classNames from "classnames";
 import { Link } from "react-router-dom";
 import { FiChevronDown } from "react-icons/fi";
 import { FaBars } from "react-icons/fa";
-import Simbolo from "../../assets/images/Logo-colored.svg";
+import Logo from "../../assets/images/Logo-colored.svg";
 import Button from "../Button/Button";
 const Header: React.FC = () => {
   const [menuAberto, setMenuAberto] = useState(false);
@@ -12,7 +12,7 @@ const Header: React.FC = () => {
   return (
     <header className="header">
       <nav className="nav-bar">
-        <img src={Simbolo} alt="logo" className="img" />
+        <img src={Logo} alt="logo" className="img" />
 
         <ul className={classNames("nav-links", { "nav-active": menuAberto })}>
           <li>

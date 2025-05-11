@@ -1,90 +1,150 @@
-import { FaWhatsapp, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
-import { MdOutlineEmail } from "react-icons/md";
-import imagem from "../../assets/imagem.jpg"
-import "./Footer.css"
-export default function Footer() {
+// components/Footer.tsx
+import { RxAccessibility } from "react-icons/rx";
+import "./Footer.css";
+import { FaArrowRight, FaEuroSign } from "react-icons/fa";
+import { CiGlobe } from "react-icons/ci";
+import Logo from "../../assets/images/Links.png";
+import { Link } from "react-router-dom";
+const Footer: React.FC = () => {
   return (
-    <footer className="footer  bg-gradient-to-tr from-green-400 to-green-200 text-white   py-2 ">
-      <div className="relative right-0 -mt-[6px] h-3 w-full rounded-l-full bg-gradient-to-r from-green-700 to-green-400 md:w-full"></div>
+    <footer className="footer">
+      <div className="footer-top">
+        <img src={Logo} alt="logo" className="footer-logo" />
 
-      <div className=" flex mb-4 pt-2 md: justify-between ml-28">
-        <a className="flex items-center  text-3xl sm:mb-0 ">
-          <img
-            src={imagem}
-            className="h-8 mr-1 rounded-lg"
-            alt="Flowbite Logo"
-          />
-          <span className="self-center text-3xl font-handwriting  font-light text-green-800   whitespace-nowrap ">
-          Jaqueline Casali
+        <nav aria-label="Footer navigation" className="footer-nav">
+          {[
+            {
+              title: "Product",
+              links: ["Pricing", "Overview", "Browse", "Accessibility"],
+            },
+            {
+              title: "Solutions",
+              links: ["Brainstorming", "Ideation", "Wireframing", "Research"],
+            },
+            {
+              title: "Resources",
+              links: ["Help Center", "Blog", "Tutorials", "FAQs"],
+            },
+            {
+              title: "Support",
+              links: [
+                "Contact Us",
+                "Developers",
+                "Documentation",
+                "Integrations",
+              ],
+            },
+            {
+              title: "Company",
+              links: ["About", "Press", "Events", "Request Demo"],
+            },
+          ].map((section) => (
+            <div className="footer-columns" key={section.title}>
+              <h4>{section.title}</h4>
+              <ul>
+                {section.links.map((link) => (
+                  <li
+                  className="li" key={link}>
+                    <Link
+                    className="a" to="#">
+                      {link}
+                      {link === "Request Demo" && (
+                        <FaArrowRight
+                          size={14}
+                          color="#E2E8F0"
+                          style={{ marginLeft: "6px" }}
+                        />
+                      )}
+                      {link === "Accessibility" && (
+                        <span className="beta">BETA</span>
+                      )}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </nav>
+      </div>
+
+      <div className="footer-bottom">
+        <span>uteach © 2023. All rights reserved.</span>
+        <div className="footer-controls">
+          <span>Terms</span>
+          <span>Privacy</span>
+          <span>Contact</span>
+          <span>
+            <CiGlobe size={24} /> EN
           </span>
-        </a>
+          <span>
+            <FaEuroSign size={24} /> EUR
+          </span>
+          <span>
+            <RxAccessibility size={24} />
+          </span>
+        </div>
       </div>
-      <div className='sm:flex justify-around '>
-
-  
-<div  className="flex flex-col"  >
-<h1 className="font-handwriting text-4xl text-green-800 font-light text-center  ">
-        Contatos
-      </h1>
-  
-<a
-          href="https://api.whatsapp.com/send?phone=5571999735079&amp;text=Olá deixe sua mensagem!"
-          target="_blank"
-              className="font-handwriting text-3xl text-green-800 font-light text-center "
-         
-         >
-                 <FaWhatsapp className="icon mr-2" />
-      (71)99973-5079
-        </a>
-
-<span className="font-handwriting text-3xl text-green-800 font-light text-center  flex justify-center items-center ">
-<MdOutlineEmail  className="icon mr-2"/>
-jcaslia@yahoo.com.br</span>
-
-</div>
-
-
-
-
-
-<div>
-
-      <h1 className="font-handwriting text-4xl text-green-800 font-light text-center  ">
-        Redes Sociais
-      </h1>
-
-
-
-      <div className="flex justify-center flex-row mt-4 gap-5">
-        <a href="https://www.instagram.com/casalitech/" target="_blank">
-          <FaInstagram className="icon transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-125 hover:bg-black-500 duration-300 " />
-        </a>
-
-        <a href="https://www.linkedin.com/in/jaquelinecasali/" target="_blank">
-          <FaLinkedin className="icon transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-125 hover:bg-black-500 duration-300 " />
-        </a>
-        <a href="https://github.com/JacquelineCasali" target="_blank">
-          <FaGithub className="icon transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-125 hover:bg-black-500 duration-300" />
-        </a>
-        <a
-          href="https://api.whatsapp.com/send?phone=5571999735079&amp;text=Olá"
-          target="_blank"
-        >
-          <FaWhatsapp className="icon transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-125 hover:bg-black-500 duration-300" />
-        </a>
-      </div>
-      </div>
-      </div>
-      <a
-          href="https://api.whatsapp.com/send?phone=5571999735079&amp;text=Olá"
-          target="_blank"
-          className="fixed bottom-2 right-6 w-12 rounded-full hover:-translate-y-2 bg-gradient-to-t hover:scale-100 hover:bg-black-100 duration-300"
-        >
-          <FaWhatsapp className="icon transition ease-in-out delay-150  h-12 w-12 text-green-700   " />
-        </a>
-      <p className="text-center p-4 font-semibold text-green-800">
-        &copy; Portfólio 2025
-      </p>
     </footer>
   );
-}
+};
+
+export default Footer;
+
+// <div className="footer-columns">
+//   <h4>Product</h4>
+//   <ul>
+//     <li>Pricing</li>
+//     <li>Overview</li>
+//     <li>Browse</li>
+//     <li>
+//       Accessibility <span className="beta">BETA</span>
+//     </li>
+//   </ul>
+// </div>
+
+// <div className="footer-columns">
+//   <h4>Solutions</h4>
+//   <ul>
+//     <li>Brainstorming</li>
+//     <li>Ideation</li>
+//     <li>Wireframing</li>
+//     <li>Research</li>
+//   </ul>
+// </div>
+
+// <div className="footer-columns">
+//   <h4>Resources</h4>
+//   <ul>
+//     <li>Help Center</li>
+//     <li>Blog</li>
+//     <li>Tutorials</li>
+//     <li>FAQs</li>
+//   </ul>
+// </div>
+
+// <div className="footer-columns">
+//   <h4>Support</h4>
+//   <ul>
+//     <li>Contact Us</li>
+//     <li>Developers</li>
+//     <li>Documentation</li>
+//     <li>Integrations</li>
+//   </ul>
+// </div>
+
+// <div className="footer-columns">
+//   <h4>Company</h4>
+//   <ul>
+//     <li>About</li>
+//     <li>Press</li>
+//     <li>Events</li>
+//     <li >Request Demo
+
+//       <FaArrowRight
+//               color="#E2E8F0"
+//               size={14}
+
+//               />
+//     </li>
+//   </ul>
+// </div>

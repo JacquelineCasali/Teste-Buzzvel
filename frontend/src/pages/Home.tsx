@@ -4,6 +4,9 @@ import All from '../components/All/All'
 import AllInOne from '../components/AllInOne/AllInOne'
 import Card from '../components/Card/Card'
 import Contact from '../components/Contact/Contact'
+import Footer from '../components/Footer/Footer'
+
+
 
 
 
@@ -22,10 +25,11 @@ import TestimonialSlider from '../components/TestimonialSlider/TestimonialSlider
 export default function Home() {
   return (
     <>
-     <Header/>
+
+    <Header/>
 
      <TeachWorldwide/>
-     <AllInOne/>
+       <AllInOne/>
    <TestimonialSlider/>
    <TeachMeet/>
 <Statistic/>
@@ -33,6 +37,8 @@ export default function Home() {
 <All/>
 <Join/>
 <Contact/>
+<Footer/>
+ 
     </>
   )
 }

@@ -41,7 +41,6 @@ width: 100%;
   margin-top: 40px;
   display: flex;
   gap: 48px;
-
   align-items: center;
 }
 
@@ -68,7 +67,7 @@ width: 100%;
   width: 524px;
   object-fit: cover;
 }
-@media (max-width: 768px) {
+@media (max-width: 393px) {
   .teach-container {
     width: 393px;
     gap: 48px;

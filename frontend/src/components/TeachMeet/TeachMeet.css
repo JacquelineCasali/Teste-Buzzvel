@@ -46,7 +46,7 @@ width: 100%;
   color: var(--blue-gray);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 393px) {
   .teachMeet-container {
     width: 393px;
     gap: 32px;
@@ -54,9 +54,8 @@ width: 100%;
 flex-direction: column-reverse;
   }
   .rights{
+       margin-top: 35px;
   
-     margin-top: 35px;
-   
   }
 
   .rights-all .title {

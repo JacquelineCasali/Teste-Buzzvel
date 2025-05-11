@@ -46,12 +46,12 @@
 
   font-size: var(--v);
 }
-
+.secondary:hover {
+  filter: brightness(0.9);
+}
 
 .blue {
   display: flex;
-
- 
   height: 56px;
   width: 295px;
   color: var(--blue);
@@ -59,7 +59,11 @@
   border: none;
   gap: 16px;
 align-items: center;
-  font-size: var(--lg);
+  font-size: var(--v);
+
+}
+.blue:hover {
+  filter: brightness(0.9);
 }
 
 .gray{
@@ -76,7 +80,7 @@ align-items: center;
   font-size: var(--v);
   font-weight: 700;
 }
-@media (max-width: 768px) {
+@media (max-width: 393px) {
   .primary {
     height: 48px;
     width: 153px;

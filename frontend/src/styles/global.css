@@ -1,57 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
- 
- 
-  --white:#FFFFFF;
-  
-  --primary: #EA580C;
-  --blue-gray: #0F172A;
-  --blue-gray-500: #64748B;
+  --white: #ffffff;
+
+  --primary: #ea580c;
+  --blue-gray: #0f172a;
+  --blue: #2563eb;
+  --blue-gray-200: #e2e8f0;
+
+  --blue-gray-500: #64748b;
   --blue-gray-600: #475569;
-  --colors: #FACC15;
+  --blue-gray-700: #334155;
+  --colors: #facc15;
   --black: #000000;
+  --purble-100: #f3e8ff;
+  --purble-800: #6b21a8;
 
-
-
---blue: #2563EB;
-
-
- 
---ss:12px;
---sm:14px;
---m:16px;
---ms:18px;
---v:20px;
---lg:24px;
---lg3:32px;
---s:40px;
---s8:48px;
---c:56px;
---t:72px
-
-
-
-
-
+  
+  --ss: 12px;
+  --sm: 14px;
+  --m: 16px;
+  --ms: 18px;
+  --v: 20px;
+  --lg: 24px;
+  --lg3: 32px;
+  --s: 40px;
+  --s8: 48px;
+  --c: 56px;
+  --t: 72px;
 }
 
-
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Roboto";
- 
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
 
-
-  body {
-    font-family: "Roboto";
-    background-color: var(--white);
-    color:var(--black);
-    line-height: 100%;
-  }
-
+body {
+  font-family: "Roboto";
+  background-color: var(--white);
+  color: var(--black);
+  line-height: 100%;
+}
 
 ul {
   list-style-type: none;
@@ -59,13 +49,7 @@ ul {
 
 a {
   text-decoration: none;
+}
 
-}
- 
-@media (max-width: 768px) {
-  .section{
-      width: auto;
-  
-  }
-}
+
 

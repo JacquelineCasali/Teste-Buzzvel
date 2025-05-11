@@ -27,10 +27,12 @@ const AllInOne = () => {
           suspendisse nec lorem mauris. Pharetra, eu imperdiet ipsum ultrices
           amet, dui sit suspendisse.
         </p>
-
-        <CheckItem text="Est et in pharetra magna adipiscing ornare aliquam." />
+<div>
+<CheckItem text="Est et in pharetra magna adipiscing ornare aliquam." />
 <CheckItem text="Tellus arcu sed consequat ac velit ut eu blandit." />
 <CheckItem text="Ullamcorper ornare in et egestas dolor orci." />
+  
+</div>
        
 
         <Button text="Find more about the app" variant={"blue"} showIconarrow />
