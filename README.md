@@ -8,6 +8,10 @@ This project is a modern landing page built with **React**, **TypeScript**, and 
 🎥 Preview / Prévia
 <!-- <video controls> <source src="/image/VideoProjeto.mp4" type="video/mp4" /> </video> -->
 
+
+https://github.com/user-attachments/assets/bd5513a3-871c-4063-9cf3-3741709b6af7
+
+
 ## ## Technologies Used / Tecnologias Utilizadas 🚀
 
 ## Frontend:
